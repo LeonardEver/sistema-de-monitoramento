@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_cons_ind_t_cons_fk" directorySegmentName="seg_0" id="972C73A8-0A1C-D687-8FDC-FD74BEEC9C64">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>D4480C99-35AC-A8C7-BF22-62B71629B5A1</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<sourcePk>F2474CA1-CE9F-8344-5C3D-CEB9A7F5627D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>107DD925-9DBF-E8E6-D072-0FE3A5731CCF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C5B74578-36CE-5EFD-256C-5866E7227161</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F573C80D-C4B0-BA40-43A8-587788B74EE7" name="t_indicador">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>D2E14A56-7BCE-3985-D27E-9CC5EF5A9126</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_indicador" id="4C492357-B62D-AE78-7831-A815410D8AB3">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>FF92A71B-3661-31EB-6DDE-D783BB8FE8EE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="331F0A51-D007-53D4-EF88-F7460F2B5494">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>B1EAB138-124A-1BD3-BB16-2C708B9D712F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4EAFEFFA-22E9-36EF-3663-4D163EA285A8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidade_medida" id="68E3851D-AF22-34CA-B34F-B415D23269FF">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>F6610439-70ED-E737-133B-9510BC37490F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="451CA3ED-2635-04F3-2FF7-AE10AE938E03" name="t_indicador_PK">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>34A6E71B-BA9E-7739-F938-D75AB7802748</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C492357-B62D-AE78-7831-A815410D8AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

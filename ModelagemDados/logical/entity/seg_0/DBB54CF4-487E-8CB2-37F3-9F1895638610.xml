@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBB54CF4-487E-8CB2-37F3-9F1895638610" name="t linha produto">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>BFABE998-24B8-6755-C78B-125156379B9A</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id produto" id="112F63B2-A671-3374-E50F-C67A59B90A5F">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>EA0921FE-A82A-F1C9-B969-0B92B0F37929</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="impacto ambiental" id="3C4A6812-FAC3-B43C-94ED-C6CDD70227C6">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>2F84F860-DB08-0264-D69C-E1815BF1B358</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="3038298E-1D66-3EF3-5CF3-37AD7AD445F8">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>C2869831-61B1-019F-C031-3E025B26E792</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="CD6E6FAB-CC5F-CBC5-04C7-AAAAEAE6B002">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>013B4845-93C1-3C46-B947-38043B0C3817</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="t empresa id empresa" id="FBF67790-2229-0410-DE49-CDC5E79447CB">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>124B63E4-AC46-F694-A48C-453D3AED4CD1</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<referedAttribute>8D0D02E0-64BF-346F-67F0-339AE249D8F7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reciclavel" id="F44BA1D6-909E-1D4A-7CC5-4F0F1DFBA6BD">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>11440403-0796-5141-4AC6-A96FE5865839</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lista materiais" id="BA36F652-4CF8-E79B-65C8-5FAB66270188">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>7BDEC158-8D73-E7E2-D043-6E40B515419F</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custo fabricacao" id="52BBBB39-09A4-2B53-4CD6-6939B2B2B74B">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>06203F03-EA10-17D6-3484-4FE4EB82D274</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B04ED658-0E01-B99F-C230-2AF02F53C752</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="residuos gerados" id="FF1B7D0F-6261-913F-481C-1A16EF518868">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>73E209D3-6AB8-402E-6E3F-7B187BBCFE9A</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BDBE8FE-6E5F-0ABF-F020-2ECB03452C92" name="t linha produto pk">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>B92E2131-BD5C-8F58-544B-6C08685342EE</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>112F63B2-A671-3374-E50F-C67A59B90A5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

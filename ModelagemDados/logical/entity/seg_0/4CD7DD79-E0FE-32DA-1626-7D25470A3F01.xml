@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CD7DD79-E0FE-32DA-1626-7D25470A3F01" name="t impac amb">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>67A3AB7C-F862-F286-2C77-C123238B92F8</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id impacto" id="BD0242A5-ACC5-ED1D-E7D1-7C2DB9FC4E2F">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>32E48FF7-EEE3-8DD7-691E-6EC6E3A8952B</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo residuo" id="75861466-80C5-3F1B-F009-48E5CE995C69">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>4FAEBD11-B8C4-1923-AB02-2E75297468AF</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descarte apropriado" id="41CE6C3F-FB18-98FB-BD44-A4D0E6420520">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>3FC3A4EB-9A77-F051-D3D6-A8AFDCF8FB36</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id produto" id="AC539AEF-B553-34CA-DABD-E21259977837">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:56:52 UTC</createdTime>
+<generatorID>C7B140CA-E779-61A0-13AF-21692FA22E5B</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<referedAttribute>112F63B2-A671-3374-E50F-C67A59B90A5F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17E0FE01-E220-6A2F-6446-13D116EA180F" name="t impac amb pk">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>7E46DD41-486B-F147-682F-546B5304316F</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD0242A5-ACC5-ED1D-E7D1-7C2DB9FC4E2F</attributeRef>
+<attributeRef>AC539AEF-B553-34CA-DABD-E21259977837</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

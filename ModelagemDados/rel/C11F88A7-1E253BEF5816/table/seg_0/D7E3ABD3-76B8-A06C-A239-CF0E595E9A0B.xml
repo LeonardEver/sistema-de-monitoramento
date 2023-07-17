@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7E3ABD3-76B8-A06C-A239-CF0E595E9A0B" name="t_apoio">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>5C13E396-0034-10D3-D541-3C2592218342</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_apoio" id="CE31137A-701B-0B22-C08C-61004341832E">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>9A5F16EB-CD6A-3C53-4CE5-8ABC83E94A69</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="1EC411CC-8CD1-9A5C-6F94-25E9BEAD77D8">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>81974F93-DF1E-FDB8-7EAA-E3D5A36F188B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="0DF8831E-58DE-4FBE-E31A-FFA71A38B01E">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>8C7EF05C-5762-6492-2659-F635CED620E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_apoio" id="D42AB1CC-8C63-EA3C-BAB9-B677FE8FC909">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>D59A654D-6C41-F7D4-D481-FC49D4186011</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7C5172E0-B3F5-62E1-D66F-61BFA592A86B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_linha_produto_id_produto" id="FB4A07DE-FC9A-F423-44DC-1EBA6E07C791">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>ACD81B4B-BBE8-CF8E-1D96-43379EAFEDE8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04914D3E-E417-0912-1C2A-81E084054BAD" referredColumn="EA0921FE-A82A-F1C9-B969-0B92B0F37929"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E13FE11A-802E-0F0D-8202-249784FFAC1E" name="t_apoio_PK">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>6AB433E8-5BCC-0183-04DD-C1371EA94884</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE31137A-701B-0B22-C08C-61004341832E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A56E41C-22AA-4740-529D-6FB24D597D85" name="t_apoio_t_linha_produto_FK">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB4A07DE-FC9A-F423-44DC-1EBA6E07C791"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

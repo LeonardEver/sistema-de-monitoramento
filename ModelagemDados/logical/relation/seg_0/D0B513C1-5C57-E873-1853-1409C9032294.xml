@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_apoio_t_linha_produto_fk" directorySegmentName="seg_0" id="D0B513C1-5C57-E873-1853-1409C9032294">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>04914D3E-E417-0912-1C2A-81E084054BAD</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<sourcePk>5BDBE8FE-6E5F-0ABF-F020-2ECB03452C92</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DBB54CF4-487E-8CB2-37F3-9F1895638610</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CCD8C919-774A-D8B2-8827-FFBCEC365EE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

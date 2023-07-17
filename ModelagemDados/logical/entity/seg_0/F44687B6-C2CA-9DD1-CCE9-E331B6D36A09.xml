@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F44687B6-C2CA-9DD1-CCE9-E331B6D36A09" name="t indicador">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>F573C80D-C4B0-BA40-43A8-587788B74EE7</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id indicador" id="D282BC3E-519A-2460-C981-8626046EDCFD">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>4C492357-B62D-AE78-7831-A815410D8AB3</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="375DC74B-E0A8-F42C-834B-17A143562B78">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>331F0A51-D007-53D4-EF88-F7460F2B5494</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4EAFEFFA-22E9-36EF-3663-4D163EA285A8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidade medida" id="5A6DB7C6-4CF2-4D72-978F-9C5254A70E1E">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>68E3851D-AF22-34CA-B34F-B415D23269FF</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A6B58B8-4E39-8F9C-A6C0-3AFE0BF12690" name="t indicador pk">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>451CA3ED-2635-04F3-2FF7-AE10AE938E03</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D282BC3E-519A-2460-C981-8626046EDCFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

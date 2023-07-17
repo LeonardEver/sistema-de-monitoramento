@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_medicao_t_indicador_fk" directorySegmentName="seg_0" id="928C111D-EC84-C9BD-04A4-B08629960037">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>2AFD8E8B-D4C6-6E55-049B-5885F4AA98F6</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<sourcePk>8A6B58B8-4E39-8F9C-A6C0-3AFE0BF12690</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F44687B6-C2CA-9DD1-CCE9-E331B6D36A09</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>220175DB-BD8C-9E40-42FF-35A7E158E173</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

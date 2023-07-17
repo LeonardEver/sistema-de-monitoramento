@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47459B79-1263-8EDE-2F05-A29EB35DD32A" name="t_consumo_agua">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>FDE77EA6-98FA-AB49-AEC9-8E0318BAA11C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vazao" id="71FBB7FF-6955-9108-4C5D-90276E2AD7BF">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>3C80D5F1-6F59-155F-E1A7-D2C40DADB7C0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>8D24E01A-E359-3303-6F0D-22FF4D602224</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_consumo_id_consumo" id="2A8AFF0C-5430-B93E-F73C-5B2AE7F94309">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>96F4735C-2F35-460E-1403-CDEF8B23AB84</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA71F56E-6DD0-42B9-3ECB-4A9566ABDD5E" referredColumn="1005BF7C-43DA-B7AB-AC84-284916D6D105"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E16CA34D-EC61-644B-A7DC-63291157F7F4" name="t_consumo_agua_PK">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>9EFB2EE8-1EA2-9D59-8BD3-7C80AA5D44FF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A8AFF0C-5430-B93E-F73C-5B2AE7F94309"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE0209D5-9C5A-FBA8-E0E6-B45BB48E2164" name="t_consumo_agua_t_consumo_FK">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A8AFF0C-5430-B93E-F73C-5B2AE7F94309"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

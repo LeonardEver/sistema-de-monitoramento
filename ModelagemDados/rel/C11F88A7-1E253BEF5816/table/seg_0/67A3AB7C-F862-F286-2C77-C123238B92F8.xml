@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67A3AB7C-F862-F286-2C77-C123238B92F8" name="t_impac_amb">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>228A1054-0A1C-0941-41B3-D4C61B9CE26F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_impacto" id="32E48FF7-EEE3-8DD7-691E-6EC6E3A8952B">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>F233BCB6-7841-F54C-5B59-E6A90E3FD54F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_residuo" id="4FAEBD11-B8C4-1923-AB02-2E75297468AF">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>637CD79E-A201-3D36-4BD6-04D453523B6E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descarte_apropriado" id="3FC3A4EB-9A77-F051-D3D6-A8AFDCF8FB36">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>9F9F891C-7BD9-5BDF-23DE-71BA9212E836</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1C65CFAE-95C2-8116-C015-06C2F4F39530</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_linha_produto_id_produto" id="9C8294F9-B4E9-77D2-DF67-2E1ECA72D1B8">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>DC3C19F0-E141-1552-F660-72187C8BF8A6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_linha_produto_id_produto2" id="187468BE-60C6-AE46-ED61-BD69488B91FA">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:59:10 UTC</createdTime>
+<generatorID>AC539AEF-B553-34CA-DABD-E21259977837</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2FD8E24-E08A-F2AB-8867-6C47D7577127" referredColumn="EA0921FE-A82A-F1C9-B969-0B92B0F37929"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E46DD41-486B-F147-682F-546B5304316F" name="t_impac_amb_PK">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>8F1212CD-D84F-024C-48FA-4A8017F20466</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32E48FF7-EEE3-8DD7-691E-6EC6E3A8952B"/>
+<colUsage columnID="187468BE-60C6-AE46-ED61-BD69488B91FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13D9CB2A-24E1-50AB-2A10-E7D152857045" name="t_impac_amb_t_linha_produto_FK">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:59:10 UTC</createdTime>
+<generatorID>C7B140CA-E779-61A0-13AF-21692FA22E5B</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="187468BE-60C6-AE46-ED61-BD69488B91FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

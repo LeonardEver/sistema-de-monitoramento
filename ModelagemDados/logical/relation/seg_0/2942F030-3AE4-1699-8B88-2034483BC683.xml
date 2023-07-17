@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_consumo_energia_t_consumo_fk" directorySegmentName="seg_0" id="2942F030-3AE4-1699-8B88-2034483BC683">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>4E355DA1-01CC-B874-898B-96EE2C360A1F</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<sourcePk>F2474CA1-CE9F-8344-5C3D-CEB9A7F5627D</sourcePk>
+<dominantRole>107DD925-9DBF-E8E6-D072-0FE3A5731CCF</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>107DD925-9DBF-E8E6-D072-0FE3A5731CCF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B4A6C329-CAF9-2E29-9E7B-26FF8A0ED313</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

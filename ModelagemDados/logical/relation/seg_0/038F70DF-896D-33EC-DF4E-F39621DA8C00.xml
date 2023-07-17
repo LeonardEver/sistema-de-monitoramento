@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_tab_nutri_t_linha_produto_fk" directorySegmentName="seg_0" id="038F70DF-896D-33EC-DF4E-F39621DA8C00">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>BD5179ED-2C5E-6AB3-3AE9-66C80324E25E</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<sourcePk>5BDBE8FE-6E5F-0ABF-F020-2ECB03452C92</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DBB54CF4-487E-8CB2-37F3-9F1895638610</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B3FD33B-39CF-A318-D372-6C49FBE7E161</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

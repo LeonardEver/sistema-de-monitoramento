@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5BDCC1B-EA08-67F9-DBA8-E457297B1AB7" name="t_consumo_indicador">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>D015CDD0-C913-008A-FDF9-8776A5D94909</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="t_indicador_id_indicador" id="42ABDDB4-11E2-21E6-0E1C-977C050CDC62">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>E2883EF0-C9AC-10C8-9C75-FB20D6497DD2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EC86D4A-318A-2DDC-684E-9E8D755E9405" referredColumn="4C492357-B62D-AE78-7831-A815410D8AB3"/>
+</associations>
+</Column>
+<Column name="t_consumo_id_consumo" id="77FA0119-BF64-D5F6-F330-26E564D2EA9A">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>41E26C9B-C156-4D9A-6F59-6716A4E03D56</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4480C99-35AC-A8C7-BF22-62B71629B5A1" referredColumn="1005BF7C-43DA-B7AB-AC84-284916D6D105"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FF73D69-7EDC-0048-A7FD-114A97DAC947" name="t_consumo_indicador_t_consumo_FK">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77FA0119-BF64-D5F6-F330-26E564D2EA9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B401281E-EC8C-B195-730E-32F51373FD5C" name="t_consumo_indicador_t_indicador_FK">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42ABDDB4-11E2-21E6-0E1C-977C050CDC62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

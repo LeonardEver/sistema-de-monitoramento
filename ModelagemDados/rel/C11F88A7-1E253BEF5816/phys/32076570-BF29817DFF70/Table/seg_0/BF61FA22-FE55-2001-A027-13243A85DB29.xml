@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="t_tab_nutri" directorySegmentName="seg_0" id="BF61FA22-FE55-2001-A027-13243A85DB29">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="acucares" id="2872CD08-5F07-C0F1-7968-0D6B6F2AA00D">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sodio" id="2A6E4295-E0E4-3A76-7C36-4C91255EC3EC">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="alergenicos" id="4F474EFF-D209-0896-AE3C-E66070D14C9C">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="valor_energetico" id="8858BD27-8A3D-E76F-89C2-38B2EC473015">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gorduras" id="9A5C90D0-C948-3E32-0AFA-75D24B429123">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_tabela" id="9BFD648F-4126-2547-01F8-95FABE29209F">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="proteinas" id="A77DBB75-854A-B9A1-CB6D-8CAF3C19C3B9">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="carboidratos" id="D5391A27-C2D2-EC3D-75A5-568AE84C7193">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="t_linha_produto_id_produto" id="FEC8DC1C-22AA-DAEA-8111-E900016BB202">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="t_tab_nutri_t_linha_produto_fk" id="F36F8B88-0000-A54D-D401-98C5C39D945D">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="t_tab_nutri_pk" id="3AD50FC9-07F4-022A-E74E-BB38F67D4A15">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

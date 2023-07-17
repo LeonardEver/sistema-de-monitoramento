@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6EC86D4A-318A-2DDC-684E-9E8D755E9405" containerWithKeyObject="D5BDCC1B-EA08-67F9-DBA8-E457297B1AB7" localFKIndex="B401281E-EC8C-B195-730E-32F51373FD5C" name="t_consumo_indicador_t_indicador_FK">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>AF0F2E70-56C1-4A0D-54EE-B6038BFD0BD8</importedID>
+<referredTableLongName>t_indicador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F573C80D-C4B0-BA40-43A8-587788B74EE7</referredTableID>
+<keyObject>451CA3ED-2635-04F3-2FF7-AE10AE938E03</keyObject>
+<referredKeyID>451CA3ED-2635-04F3-2FF7-AE10AE938E03</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_indicador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

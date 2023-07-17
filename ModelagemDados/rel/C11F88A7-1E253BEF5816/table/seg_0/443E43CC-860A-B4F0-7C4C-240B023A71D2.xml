@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="443E43CC-860A-B4F0-7C4C-240B023A71D2" name="t_medicao">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>40D49919-FE61-5B1F-B7B8-2891D33D7A18</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medicao" id="EB74C200-4714-7BDF-0397-C051C7395E85">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>B54CDFF5-187A-03DA-7C83-49723A392787</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>17FC1420-6665-CDE0-2A01-477A2014E9D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="6A1F5268-D3AA-1E0C-C715-C37178D69058">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>FCF22FF1-4F65-BEF8-97D0-AE73F5D073C2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>8D24E01A-E359-3303-6F0D-22FF4D602224</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_indicador_id_indicador" id="533CA0F3-D9FD-0284-865F-8966F2BC924D">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>BEB99868-4401-267D-528D-8D67EF647351</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AFD8E8B-D4C6-6E55-049B-5885F4AA98F6" referredColumn="4C492357-B62D-AE78-7831-A815410D8AB3"/>
+</associations>
+</Column>
+<Column name="t_linha_produto_id_produto" id="D9680FC2-3369-E07F-27F0-A7775BF2A97F">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>F3CFEC13-D275-623E-5665-3EE4DA2299EF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>387B4632-086D-0AED-3174-7305DEAEA4DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D454080F-13E2-B108-8793-3CDB201E279C" referredColumn="EA0921FE-A82A-F1C9-B969-0B92B0F37929"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACAF1CBB-C85D-91F8-B1C1-87BE03B2FBE2" name="t_medicao_PK">
+<sourceDDLFile>modelo.ddl</sourceDDLFile>
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<importedID>E1D39B91-C448-6C6E-8C2D-668E56205D71</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB74C200-4714-7BDF-0397-C051C7395E85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AC28935-3AD3-AF7C-3B06-1C28CB7BB4B6" name="t_medicao_t_indicador_FK">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="533CA0F3-D9FD-0284-865F-8966F2BC924D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D9053BE-03AC-4090-FB74-962CD8348721" name="t_medicao_t_linha_produto_FK">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:15 UTC</createdTime>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9680FC2-3369-E07F-27F0-A7775BF2A97F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_linha_produto_t_empresa_fk" directorySegmentName="seg_0" id="124B63E4-AC46-F694-A48C-453D3AED4CD1">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>EF4DF297-A689-F9C6-05FD-8740D198297A</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<sourcePk>1119A564-7C0F-05D4-1A10-9EE18574D25F</sourcePk>
+<dominantRole>B93A2F4E-90F3-B202-8013-D6F8D6C9D112</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B93A2F4E-90F3-B202-8013-D6F8D6C9D112</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DBB54CF4-487E-8CB2-37F3-9F1895638610</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

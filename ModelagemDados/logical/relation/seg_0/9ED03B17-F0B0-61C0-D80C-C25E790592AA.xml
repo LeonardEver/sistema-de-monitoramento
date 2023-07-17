@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="t_consumo_agua_t_consumo_fk" directorySegmentName="seg_0" id="9ED03B17-F0B0-61C0-D80C-C25E790592AA">
+<createdBy>leoar</createdBy>
+<createdTime>2023-06-02 23:55:57 UTC</createdTime>
+<generatorID>CA71F56E-6DD0-42B9-3ECB-4A9566ABDD5E</generatorID>
+<ownerDesignName>ModeloFinal</ownerDesignName>
+<engineerTo>
+<item key="C11F88A7-83FD-C78B-27FD-1E253BEF5816" value="true"/>
+</engineerTo>
+<sourcePk>F2474CA1-CE9F-8344-5C3D-CEB9A7F5627D</sourcePk>
+<dominantRole>107DD925-9DBF-E8E6-D072-0FE3A5731CCF</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>107DD925-9DBF-E8E6-D072-0FE3A5731CCF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>12460F3D-7761-4AE0-1B1B-436DC1DF613B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
